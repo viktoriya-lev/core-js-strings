@@ -361,7 +361,7 @@ function isPalindrome(str) {
     }
   }
 
-  const secondArr = firstArr.split('').toReversed().join('');
+  const secondArr = firstArr.split('').reverse().join('');
 
   return firstArr === secondArr;
 }
